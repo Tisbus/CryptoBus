@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CryptoBus</string>
+    <string name="logo">logo</string>
+    <string name="last_update">Время последнего обновления: %s</string>
+    <string name="symbols">%s / %s</string>
+    <string name="symbol">Валюта: %s</string>
+</resources>
