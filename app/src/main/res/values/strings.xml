@@ -3,5 +3,9 @@
     <string name="logo">logo</string>
     <string name="last_update">Время последнего обновления: %s</string>
     <string name="symbols">%s / %s</string>
-    <string name="symbol">Валюта: %s</string>
+    <string name="price">Цена: %s</string>
+    <string name="price_min">Минимум за день: %s</string>
+    <string name="price_max">Максимум за день: %s</string>
+    <string name="last_order">Последняя сделка: %s</string>
+    <string name="last_update_order">Обновление цены: %s</string>
 </resources>

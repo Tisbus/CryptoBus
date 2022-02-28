@@ -40,9 +40,11 @@ class CoinPriceListActivity : AppCompatActivity() {
             bind.recyclerMain.adapter = adapter
             adapter.onCoinClickListener = object : CoinPriceAdapter.OnCoinClickListener{
                 override fun onCoinClick(coin: CoinPriceInfo) {
-                    val goDetail = Intent(this@CoinPriceListActivity, CoinDetailActivity::class.java).apply {
+/*                    val goDetail = Intent(this@CoinPriceListActivity, CoinDetailActivity::class.java).apply {
                         putExtra("currency", coin.FROMSYMBOL)
                     }
+                    startActivity(goDetail)*/
+                    val goDetail = CoinDetailActivity.newIntent(this@CoinPriceListActivity, coin.FROMSYMBOL)
                     startActivity(goDetail)
                 }
             }

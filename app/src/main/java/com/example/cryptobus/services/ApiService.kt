@@ -28,7 +28,7 @@ interface ApiService {
         private const val PARAM_TO_SYMBOLS = "tsyms"
         private const val PARAM_FROM_SYMBOLS = "fsyms"
         private const val PARAM_API_KEY = "api_key"
-        private const val CURRENCY = "USD"
+        private const val CURRENCY = "RUB"
         private const val API_KEY = "931af154e9d4c6ac2d3bc747f08d94f195a771cb919e62bd09e6fa60a839ea94"
     }
 }
